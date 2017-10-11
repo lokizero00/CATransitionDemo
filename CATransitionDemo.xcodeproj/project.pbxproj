@@ -12,6 +12,9 @@
 		129A8C081F8E0588001F5170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129A8C061F8E0588001F5170 /* Main.storyboard */; };
 		129A8C0A1F8E0588001F5170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129A8C091F8E0588001F5170 /* Assets.xcassets */; };
 		129A8C0D1F8E0588001F5170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129A8C0B1F8E0588001F5170 /* LaunchScreen.storyboard */; };
+		129A8C161F8E0698001F5170 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A8C141F8E0698001F5170 /* FirstViewController.swift */; };
+		129A8C171F8E0698001F5170 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 129A8C151F8E0698001F5170 /* FirstViewController.xib */; };
+		129A8C1A1F8E098A001F5170 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129A8C191F8E098A001F5170 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		129A8C091F8E0588001F5170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		129A8C0C1F8E0588001F5170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		129A8C0E1F8E0588001F5170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129A8C141F8E0698001F5170 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		129A8C151F8E0698001F5170 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		129A8C191F8E098A001F5170 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129A8C1A1F8E098A001F5170 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 			children = (
 				129A8C011F8E0588001F5170 /* CATransitionDemo */,
 				129A8C001F8E0588001F5170 /* Products */,
+				129A8C181F8E098A001F5170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,18 @@
 				129A8C091F8E0588001F5170 /* Assets.xcassets */,
 				129A8C0B1F8E0588001F5170 /* LaunchScreen.storyboard */,
 				129A8C0E1F8E0588001F5170 /* Info.plist */,
+				129A8C141F8E0698001F5170 /* FirstViewController.swift */,
+				129A8C151F8E0698001F5170 /* FirstViewController.xib */,
 			);
 			path = CATransitionDemo;
+			sourceTree = "<group>";
+		};
+		129A8C181F8E098A001F5170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				129A8C191F8E098A001F5170 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +144,7 @@
 				129A8C0D1F8E0588001F5170 /* LaunchScreen.storyboard in Resources */,
 				129A8C0A1F8E0588001F5170 /* Assets.xcassets in Resources */,
 				129A8C081F8E0588001F5170 /* Main.storyboard in Resources */,
+				129A8C171F8E0698001F5170 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129A8C161F8E0698001F5170 /* FirstViewController.swift in Sources */,
 				129A8C051F8E0588001F5170 /* ViewController.swift in Sources */,
 				129A8C031F8E0588001F5170 /* AppDelegate.swift in Sources */,
 			);
